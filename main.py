@@ -11,7 +11,8 @@ template = """
 
     Here are some examples different Tones:
     - Formal: We went to Barcelona for the weekend. We have a lot of things to tell you.
-    - Informal: Went to Barcelona for the weekend. Lots to tell you.  
+    - Informal: Went to Barcelona for the weekend. Lots to tell you.
+    - Fun: Ayyyy Bro! Barcelona was TIGHT! Can't wait to tell you over a beer.  
 
     Here are some examples of words in different dialects:
     - American: French Fries, cotton candy, apartment, garbage, cookie, green thumb, parking lot, pants, windshield
