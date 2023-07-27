@@ -52,9 +52,10 @@ with col1:
     st.markdown("Often professionals would like to improve their emails, but don't have the skills to do so. \n\n This tool \
                 will help you improve your email skills by converting your emails into a more professional format. This tool \
                 is powered by [LangChain](https://langchain.com/) and [OpenAI](https://openai.com). \
-                If you don't have an OpenAI API Key to enter, follow this video guide https://www.youtube.com/watch?v=EQQjdwdVQ-M "
+                 "
                 )
 
+# If you don't have an OpenAI API Key to enter, follow this video guide https://www.youtube.com/watch?v=EQQjdwdVQ-M
 with col2:
     st.image(image='searchBot.jpg', width=500, caption='Use this tool to juice up your emails')
 
@@ -62,13 +63,13 @@ with col2:
 st.markdown("## Enter Your Email To Convert")
 
 # Toggle back on for user-input
-def get_api_key():
-    input_text = st.text_input(label="OpenAI API Key ",  placeholder="Ex: sk-2twmA8tfCb8un4...", key="openai_api_key_input")
-    return input_text
-openai_api_key = get_api_key()
+# def get_api_key():
+#     input_text = st.text_input(label="OpenAI API Key ",  placeholder="Ex: sk-2twmA8tfCb8un4...", key="openai_api_key_input")
+#     return input_text
+# openai_api_key = get_api_key()
 
 # Toggle for environmental variable (Owner's Use Only)
-# openai_api_key = st.secrets["openai_api_key"]
+openai_api_key = st.secrets["openai_api_key"]
 
 col1, col2 = st.columns(2)
 with col1:
